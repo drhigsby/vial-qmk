@@ -24,9 +24,7 @@ enum layers {
 #define NUM MO(_NUM)
 #define FN  MO(_FN)
 
-/* ============================================================
  * LAYOUT_625uC — single 6.25U spacebar
- * ============================================================ */
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_BASE] = LAYOUT_625uC(
@@ -52,12 +50,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
-/* ============================================================
  * LAYOUT_2x3uC — dual 3U spacebars
  * Left spacebar = NUM layer, Right spacebar = KC_SPC
  * Uncomment the block below and comment out the block above
  * to use this layout instead.
- * ============================================================ */
 
 /*
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -85,6 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 */
+
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
