@@ -7,9 +7,6 @@
         "rows": 4,
         "cols": 12
     },
-    "encoders": [
-        {"x": 13, "y": 0}
-    ],
     "layouts": {
         "keymap": [
             [
